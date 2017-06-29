@@ -35,7 +35,9 @@ img{
     display:flex;
     flex-direction: row;
     flex-wrap: wrap;
-
+    align-items: center;
+    margin-left:auto;
+    margin-right: auto;
 
 
 
@@ -140,7 +142,7 @@ aside{
     box-shadow: 5px 5px 8px rgba( 0, 0, 0, 0.3 );
     width: 25%;
     position: relative;
-    bottom: 20px;
+    bottom: 389px;
     /*
         TODO:
         - Flexbox: Set the starting width of this element
