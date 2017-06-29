@@ -35,9 +35,7 @@ img{
     display:flex;
     flex-direction: row;
     flex-wrap: wrap;
-    align-items: center;
-    margin-left:auto;
-    margin-right: auto;
+    justify-content: center;
 
 
 
@@ -95,6 +93,7 @@ img{
     background: #444;
     display: flex;
     justify-content: space-around;
+    flex-flow: nowrap;
     /*
         TODO:
         - Use Flexbox to arrange the navigation links
@@ -106,6 +105,7 @@ img{
     text-decoration: none;
     text-transform: uppercase;
     padding: 10px 20px;
+    align-items: center;
 
     /*
         TODO:
@@ -142,7 +142,7 @@ aside{
     box-shadow: 5px 5px 8px rgba( 0, 0, 0, 0.3 );
     width: 25%;
     position: relative;
-    bottom: 389px;
+    bottom: 20px;
     /*
         TODO:
         - Flexbox: Set the starting width of this element
