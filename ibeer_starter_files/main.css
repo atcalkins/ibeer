@@ -155,7 +155,7 @@ aside img{
     border-radius: 50%;
     margin-bottom: 30px;
     border: 2px solid white;
-    
+
 
 }
 article{
@@ -191,6 +191,12 @@ article img{
     */
 }
 article footer p{
+    border-top: 1px solid #ccc;
+    text-align: center;
+    font-size: 0.8em;
+    color: #666;
+
+
     /*
         TODO:
         - Style the article footer
@@ -198,8 +204,9 @@ article footer p{
     */
 }
 #site-footer{
-
+    color: #fff;
     background: #333;
+    text-align: center;
     /*
         TODO:
         - Style the site footer
