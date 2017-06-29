@@ -33,7 +33,8 @@ img{
     width: 1000px;
     margin:0 auto;
     display:flex;
-    flex-direction:column;
+    flex-direction: row;
+    flex-wrap: wrap;
 
 
 
@@ -112,7 +113,7 @@ img{
 }
 #main-navigation #logo{
     margin-right: 400px;
-
+    width: 130%
     /*
         TODO:
         - Flexbox - The logo needs to take up more space
@@ -123,6 +124,10 @@ main{
     padding: 20px;
     background-color: #444;
     box-shadow: -5px 5px 8px rgba( 0, 0, 0, 0.3 );
+    width: 60%;
+    align-content: center;
+    position: relative;
+    bottom: 20px;
 
     /*
         TODO:
@@ -134,7 +139,9 @@ aside{
     padding: 20px;
     background-color: #eee;
     box-shadow: 5px 5px 8px rgba( 0, 0, 0, 0.3 );
-
+    width: 30%;
+    position: relative;
+    bottom: 20px;
     /*
         TODO:
         - Flexbox: Set the starting width of this element
@@ -177,6 +184,8 @@ article time{
 }
 article img{
   float: right;
+  width: 30%;
+
     /*
         TODO:
         - Float article images to the right
