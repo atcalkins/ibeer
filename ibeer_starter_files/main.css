@@ -46,7 +46,9 @@ img{
     */
 }
 #site-header{
-  flex-basis: 20%;
+  margin-left: -30px;
+  margin-right: -30px;
+
 
 
     /*
@@ -81,6 +83,7 @@ img{
     color: white;
     bottom: 20px;
     text-shadow: 0 5px 8px rgba( 0, 0, 0, 0.3 );
+    font-family: 'Dancing Script'
     /*
         TODO:
         - Use the script font: 'Dancing Script' fot this text
